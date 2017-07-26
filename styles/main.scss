@@ -205,6 +205,11 @@ p {
 }
 
 .solution {
+
+  iframe {
+    width: 560px;
+    height: 315px;
+  }
 }
 
 .team {
@@ -214,7 +219,8 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 10em 0em
+  padding: 3em 0em 5em;
+  text-align: center;
 }
 
 .container {
@@ -256,6 +262,10 @@ strong {
   align-items: center;
 
   img {
+    max-width: 100%;
+  }
+
+  iframe {
     max-width: 100%;
   }
 
@@ -316,6 +326,14 @@ strong {
 }
 
 @media only screen and (max-width: 768px) {
+  .note-center {
+    font-size: 1.3em;
+  }
+
+  .note {
+    padding: 15px;
+  }
+
 
   .landing-new {
     background: url(../img/hero-small.jpg);
@@ -339,7 +357,7 @@ strong {
     width: 95%;
 
     p {
-      font-size: 1.4em;
+      font-size: 1.3em;
       margin-bottom: 0;
     }
 
@@ -356,7 +374,9 @@ strong {
     margin-top: 5vh;
 
     p {
-      font-size: 2em;
+      padding-top: 0.5em;
+      padding-bottom: 1em;
+      font-size: 1.4em;
     }
   }
 
